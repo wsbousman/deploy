@@ -1,0 +1,27 @@
+{
+  "name": "health-tracker",
+  "version": "1.0.0",
+  "description": "***\r ![Health Hacker](https://i.imgur.com/djuuSgB.png)\r ***\r # About\r With the hectic nature of daily life, it can be difficult to keep track of bare necessities such as caloric intake. Often, food just takes a back seat to getting stuff done and we end up not taking proper care of our bodies. Enter Health Hacker, an easy-to-use app that allows users to register accounts, record their caloric intake and output for the day through food and activities, as well as provide comments on both as inspiration for other users looking for healthy recipe and workout ideas.\r ***\r # Instructions\r Health Hacker offers a simple interface that allows users to register accounts, log in, and begin posting everything from \r simple caloric notes and smart watch-reported steps to in-depth recipe ideas and workout plans!\r ***\r # Credits\r Health Hacker was built using the MERN stack by:",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abigailroberg/health-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abigailroberg/health-tracker/issues"
+  },
+  "homepage": "https://github.com/abigailroberg/health-tracker#readme"
+}
