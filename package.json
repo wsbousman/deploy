@@ -2,7 +2,7 @@
   "name": "health-tracker",
   "version": "1.0.0",
   "description": "***\r ![Health Hacker](https://i.imgur.com/djuuSgB.png)\r ***\r # About\r With the hectic nature of daily life, it can be difficult to keep track of bare necessities such as caloric intake. Often, food just takes a back seat to getting stuff done and we end up not taking proper care of our bodies. Enter Health Hacker, an easy-to-use app that allows users to register accounts, record their caloric intake and output for the day through food and activities, as well as provide comments on both as inspiration for other users looking for healthy recipe and workout ideas.\r ***\r # Instructions\r Health Hacker offers a simple interface that allows users to register accounts, log in, and begin posting everything from \r simple caloric notes and smart watch-reported steps to in-depth recipe ideas and workout plans!\r ***\r # Credits\r Health Hacker was built using the MERN stack by:",
-  "main": "index.js",
+  "main": "server/server.js",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
